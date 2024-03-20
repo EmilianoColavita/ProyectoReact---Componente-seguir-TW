@@ -1,0 +1,68 @@
+.ig-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    gap: 10px; /* Agregamos un espacio entre los elementos */
+    justify-content: space-between;
+}
+  
+.ig-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.ig-followCard-info {
+    display: flex;
+    flex-direction: column;
+}  
+  
+.ig-followCard-avatar {
+    width: 50px; /* Tamaño deseado para la imagen */
+    height: 50px; /* Tamaño deseado para la imagen */
+    border-radius: 50%; /* Esto hará que la imagen se muestre como un círculo */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+  
+.ig-followCard-info {
+    display: block; /* Hacer que el strong sea un bloque para que ocupe todo el ancho */
+    font-size: 1.2em; /* Tamaño de fuente deseado */
+}
+  
+.ig-followCard-infoUsername {
+    opacity: .6;
+    margin-right: 10px; /* Agregamos espacio entre el span y el botón */
+}
+
+.ig-followCard-infoUsername {
+    display: block; /* Hacer que el span sea un bloque para que ocupe todo el ancho */
+    font-size: 0.9em; /* Tamaño de fuente deseado */
+}
+  
+.ig-followCard-button {
+    margin-left: auto; /* Mover el aside (botón seguir) hacia la derecha */
+}
+
+
+  
+.ig-followCard-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Hacer que el botón sea más circular */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    font-size: 1em; /* Tamaño de fuente del botón */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+}
+  
+.ig-followCard-button {
+    background-color: #0056b3; /* Cambiar el color de fondo al pasar el mouse sobre el botón */
+}
+
+.ig-followCard-button:hover{
+    background-color: aqua;
+    transition: .3s ease background-color;
+}
+
